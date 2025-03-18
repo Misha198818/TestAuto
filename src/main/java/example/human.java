@@ -1,11 +1,11 @@
 package example;
-public class human {
+public class Human {
     public String name;
     public String soname;
     public static int count;
 
     //будет считать количество экземляров класса и определять переменные
-    public human(String name, String soname){
+    public Human(String name, String soname){
         this.name = name;
         this.soname = soname;
         count++;

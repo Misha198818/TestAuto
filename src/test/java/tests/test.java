@@ -3,7 +3,7 @@ package tests;
 import org.junit.AfterClass;
 import org.junit.Test;
 
-import example.human;
+import example.Human;
 
 public class test {
         
@@ -11,27 +11,27 @@ public class test {
         @Test  
         public void Test(){
         //создаем нового человека
-            human Petr = new human("Петр", "Иванов"); 
-            System.out.println(Petr.name + " " + Petr.soname + " по счету: " + human.count);
+            Human Petr = new Human("Петр", "Иванов"); 
+            System.out.println(Petr.name + " " + Petr.soname + " по счету: " + Human.count);
         }
 
         @Test
         public void TestOne(){
         //создаем нового человека
-            human Oleg = new human("Олег", "Захаров"); 
-            System.out.println(Oleg.name + " " + Oleg.soname + " по счету: " + human.count);
+            Human Oleg = new Human("Олег", "Захаров"); 
+            System.out.println(Oleg.name + " " + Oleg.soname + " по счету: " + Human.count);
         }
 
         @Test
         public void TestThree(){
         //создаем нового человека
-            human Masha = new human("Маша", "Васина"); 
-            System.out.println(Masha.name + " " + Masha.soname + " по счету: " + human.count);
+            Human Masha = new Human("Маша", "Васина"); 
+            System.out.println(Masha.name + " " + Masha.soname + " по счету: " + Human.count);
         }
 
         @AfterClass
         public static void TestCheck(){
-            human.check();
+            Human.check();
         }
          
 }
