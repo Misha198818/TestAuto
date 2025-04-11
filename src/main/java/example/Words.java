@@ -2,10 +2,20 @@ package example;
 
 public class Words {
 
+    static String words[] = new String[]{"привет", "ПОКА", "гипербола"};
+   
+
+    public static void randomWords(){
+
+        int number = (int)(Math.random() * 3);
+        
+        System.out.println("случайное слово: " + words[number]);
+   }
+
     public static void main(String[] args){
 
-       String words[] = new String[]{"привет", "ПОКА", "гипербола"};
-
+       //выведем случайное слово 
+       randomWords();
 
        for(int i = 0; i < words.length; i++){
         
@@ -27,5 +37,4 @@ public class Words {
        }
 
     }
-
 }
