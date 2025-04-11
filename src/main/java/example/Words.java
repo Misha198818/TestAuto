@@ -3,7 +3,7 @@ package example;
 public class Words {
 
     static String words[] = new String[]{"привет", "ПОКА", "гипербола"};
-    
+   
 
     public static void randomWords(){
 
