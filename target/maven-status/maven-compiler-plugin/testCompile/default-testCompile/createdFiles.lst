@@ -1,1 +1,5 @@
+pages\elements\LogoElement.class
+pages\TestViki.class
 BaseTest.class
+pages\elements\InputElement.class
+TestOne.class
