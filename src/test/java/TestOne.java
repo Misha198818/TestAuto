@@ -5,10 +5,11 @@ import pages.TestViki;
 
 public class TestOne extends BaseTest{
 
+    TestViki testViki = new TestViki();
+
     @DisplayName("Википедия")
     @Test
     public void Test(){
-        TestViki testViki = new TestViki();
         testViki.openPage()
                 .inputRequest()
                 .eleventVisible();
